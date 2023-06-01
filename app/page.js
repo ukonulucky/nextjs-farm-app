@@ -11,8 +11,6 @@ import star from "../public/star.svg";
 
 import { BsFacebook } from "react-icons/bs";
 import logo from "../public/logo.svg";
-import circle from "../public/geodshape.svg";
-import land from "../public/rectangle457.svg";
 import good from "../public/good.svg";
 import ellipse3 from "../public/ellipse3.svg";
 import ellipse4 from "../public/ellipse4.svg";
