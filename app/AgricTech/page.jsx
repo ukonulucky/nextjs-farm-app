@@ -58,7 +58,7 @@ function AgricTech() {
         ))}
       </div>
       <p
-        className="cursor-pointer border-solid border-4 border-green-400 m-auto text-black
+        className="cursor-pointer  m-auto text-black
         text-[30px] flex items-center justify-center pr-12 pl-12 pt-6 pb-6 w-max font-[700]
         rounded-lg"
       >
