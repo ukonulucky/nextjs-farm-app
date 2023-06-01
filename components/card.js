@@ -12,7 +12,7 @@ function Card({text,img,heading,myClass}) {
            />
            <div className="flex flex-col items-start gap-y-6 justify-start height-[421px] width-[409]">
    
-   <h2 className=" text-[40px] leading-[48px] text-start font-700 text-black ">{heading}</h2> 
+   <h2 className="text-[35px] md:text-[40px] leading-[48px] text-start font-700 text-black ">{heading}</h2> 
    <p className="text-gray-400 font-[100] text-[18px] leading-[32px]">
      {text}
    </p>

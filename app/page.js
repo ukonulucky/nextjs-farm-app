@@ -113,7 +113,7 @@ export default function Home() {
           {/* navbar */}
         </div>
 
-        <div className="flex flex-col gap-y-4 items-center justify-center font-[700] text-[30px] md:text-[64px] mt-12 md:mt-0 md:leading-[72px] text-center text-white  flex-1  w-2/3 m-auto">
+        <div className="flex flex-col gap-y-4 items-center justify-center font-[700] text-[35px] md:text-[64px] mt-12 md:mt-0 md:leading-[72px] text-center text-white  flex-1  w-2/3 m-auto">
           <p className="">
             Providing <span className="text-green-700">homes</span>
           </p>
@@ -145,7 +145,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center gap-y-6 items">
           <div className="flex flex-col items-center gap-y-4">
-            <h3 className="font-[700] text-[64px] leading-[72px] pt-12 text-start text-white" onClick={() => {
+            <h3 className="font-[700] text-[45px] md:text-[64px] leading-[72px] pt-12 text-start text-white" onClick={() => {
               navigate("/AgricTech")
             }}>
               Our Services

@@ -55,6 +55,12 @@
   width: 150vw;
   transform: translateX(-25vw);
 }
+@media screen and (max-width:480px){
+  .items{
+        width: 120vw;
+        transform: translateX(-10vw);
+  }
+}
 .pic {
   object-fit: cover;
   /* object-position: 50% 50%; */
@@ -103,4 +109,8 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+img{
+  border-width: 0px !important;
+  border-color: white !important;
 }
