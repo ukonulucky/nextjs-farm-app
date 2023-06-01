@@ -11,6 +11,7 @@ import star from "../public/star.svg";
 
 import { BsFacebook } from "react-icons/bs";
 import logo from "../public/logo.svg";
+import land from "../public/rectangle457.svg";
 import good from "../public/good.svg";
 import ellipse3 from "../public/ellipse3.svg";
 import ellipse4 from "../public/ellipse4.svg";
@@ -24,13 +25,14 @@ import Card from "@/components/card";
 export default function Home() {
   const router = useRouter()
   const dataComp = data.map((i) => (
-    <Card
+   <div key={i.id}>
+     <Card
       text={i.text}
       heading={i.heading}
       myClass={i.myClass}
-      key={i.id}
       img={i.img}
     />
+   </div>
   ));
   const listArray = [
     {

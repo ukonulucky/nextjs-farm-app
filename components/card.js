@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
-function Card({text,img,heading,myClass,key}) {
+function Card({text,img,heading,myClass}) {
   return (
-    <div className={`flex w-3/4 md:w-3/5 items-start gap-y-12 ${myClass}`}  key={key}>
+    <div className={`flex w-3/4 md:w-3/5 items-start gap-y-12 ${myClass}`}>
           <Image
           src={img}
           alt="logg"
