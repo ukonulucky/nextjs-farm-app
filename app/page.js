@@ -11,7 +11,7 @@ import star from "../public/star.svg";
 
 import { BsFacebook } from "react-icons/bs";
 import logo from "../public/logo.svg";
-import land from "../public/rectangle457.svg";
+import land from "../public/Rectangle457.svg";
 import good from "../public/good.svg";
 import ellipse3 from "../public/ellipse3.svg";
 import ellipse4 from "../public/ellipse4.svg";
@@ -25,7 +25,7 @@ import Card from "@/components/card";
 export default function Home() {
   const router = useRouter()
   const dataComp = data.map((i) => (
-   <div key={i.id}>
+   <div key={i.id} className=" w-3/4 md:w-3/5 mx-auto ">
      <Card
       text={i.text}
       heading={i.heading}
@@ -261,7 +261,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex gap-y-24 mt-8 mb-8 flex-col items-center ">
+      <div className="flex gap-y-24 mt-8 mb-8 flex-col items-center  ">
         {dataComp}
       </div>
       <div className=" flex flex-col items-center gap-y-6 "></div>

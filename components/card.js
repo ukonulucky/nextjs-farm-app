@@ -3,7 +3,7 @@ import React from 'react'
 
 function Card({text,img,heading,myClass}) {
   return (
-    <div className={`flex w-3/4 md:w-3/5 items-start gap-y-12 ${myClass}`}>
+    <div className={`flex  items-start gap-y-12 md:items-center ${myClass}`}>
           <Image
           src={img}
           alt="logg"
