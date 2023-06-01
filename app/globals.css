@@ -1,27 +1,107 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,500&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.header {
+  background-image: url("../public/layoutPic.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.center {
+  background: linear-gradient(to bottom, #001e0f 90%, #001e0f 100%);
+  padding: 80px 0 0px 100px;
+  width: 100%;
+}
+
+.logo {
+  width: 190px;
+  height: 90px;
+  border-radius: 0 0 150px 150px;
+  background-color: white;
+}
+
+.parent {
+  overflow: hidden;
+}
+
+.center2 {
+  position: relative;
+  bottom: -230px;
+  height: 200px;
+  background-color: #001e0f;
+}
+.outer {
+  background-color: #001e0f;
+  border-radius: 0% 0% 50% 50%;
+}
+
+.items {
+  background: linear-gradient(to bottom, #00c663 0%, #008040 100%);
+  border-radius: 50% 50% 50% 50%;
+  border: none;
+  padding: 200px 0px 150px 0px;
+  width: 150vw;
+  transform: translateX(-25vw);
+}
+.pic {
+  object-fit: cover;
+  /* object-position: 50% 50%; */
+}
+
+.overview {
+  padding-bottom: 50px !important;
+}
+.landPic {
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 1rem;
+}
+
+@media screen and (max-width:767px){
+  .left, .right{
+    flex-direction: column;
+    row-gap: 20px;
+    column-gap: 0px;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.start {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.good {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5px, -5px);
+  z-index: 3;
+  
+}
+
+.roundItem {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }

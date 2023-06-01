@@ -1,0 +1,32 @@
+.header {
+  background-image: url("../../../public/coverPic.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  width: 100%;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen {
+  .header {
+    height: -moz-max-content;
+    height: max-content;
+  }
+}
+.header a:hover {
+  color: rgb(108, 180, 108);
+  border-bottom: 5px;
+  border-style: solid;
+}
+.header .roundItem {
+  border: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}/*# sourceMappingURL=page.module.css.map */

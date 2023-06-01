@@ -1,0 +1,15 @@
+
+.header{
+     width: 100vw;
+     height: max-content;
+     font-family:Roboto ;
+     a{
+        &:hover{
+            color: rgb(108, 180, 108);
+            border-bottom: 5px;
+            border-style: solid;
+        }
+     }
+    
+}
+
